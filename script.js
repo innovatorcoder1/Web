@@ -60,7 +60,7 @@ form.addEventListener('submit', async function(event) {
             // Optionally, you can read the response body from n8n:
             // const responseData = await response.json(); 
             
-            updateStatus('✅ Registration Successful!');
+            updateStatus('✅ Registration Successful!', 'success');
             form.reset(); // Clear the form fields upon success
 
         } else {
@@ -87,6 +87,7 @@ form.addEventListener('submit', async function(event) {
     }
 
 });
+
 
 
 
