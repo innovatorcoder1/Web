@@ -1,6 +1,6 @@
 // --- Configuration ---
 // ** CRITICAL: Replace this with the actual URL provided by your n8n Webhook node. **
-const N8N_WEBHOOK_URL = 'https://codewarcollege.app.n8n.cloud/webhook/5c27a646-48e0-4816-b6fb-34230c43ea5e'; 
+const N8N_WEBHOOK_URL = 'https://codewarcollege.app.n8n.cloud/webhook-test/5c27a646-48e0-4816-b6fb-34230c43ea5e'; 
 // Example: 'https://webhook.n8n.cloud/v1/webhook/xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx';
 
 // --- Element Selection ---
@@ -85,4 +85,5 @@ form.addEventListener('submit', async function(event) {
         // This runs regardless of success or failure
         registerButton.disabled = false; // Re-enable the button
     }
+
 });
